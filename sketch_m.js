@@ -6,8 +6,8 @@ function setup() {
   background(255);
 button1 = createButton('VIDEO')
   button1.mousePressed(LinkClik1);
-  button1.position(100,300);
-  button1.size(250,150);
+  button1.position(250,300);
+  button1.size(200,150);
  button1.style("font-family", "Comic Sans MS");
   button1.style("background-color","#fff");
  button1.style("color","#000");
