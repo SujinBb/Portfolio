@@ -14,7 +14,7 @@ createCanvas(1280,800);
   fill(textColor);
   textSize(100);
   textFont('Comic Sans MS');
-  text('Go to the Video',300, 390);
+  text('Go to the Video',270, 390);
 
    if (frameCount % 50 == 0) {
     bgColor = color(random(255), random(255), random(255));
