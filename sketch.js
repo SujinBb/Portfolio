@@ -1,6 +1,6 @@
 var r;
 var b;
-var words = ["#Sujin Baek", "#1990", "#0905", "#Horse", "#Germany","#31","#Female","#FC Liverpool",
+var words = ["#Sujin Baek","#CJ ENM","#1990", "#0905", "#Horse", "#Germany","#31","#Female","#FC Liverpool",
               "#A","#ENFJ-A","#Adobe","#Media Art","#Art","# Appreciating Movies",
               "#Travel","#Cycling","#Video","#MadMapper","#Coding","#Illustration","#Design",
               "#Web Art", "#Color","#Yangpyeong","#Köln","#164","#Art Museum","#Fine Art"];
