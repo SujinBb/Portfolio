@@ -2,12 +2,12 @@ var button;
 var _self;
 
 function setup() {
-  createCanvas(1080, 720);
+  createCanvas(1280,800);
   background(255);
 button1 = createButton('VIDEO')
   button1.mousePressed(LinkClik1);
   button1.position(100,300);
-  button1.size(200,150);
+  button1.size(250,150);
  button1.style("font-family", "Comic Sans MS");
   button1.style("background-color","#fff");
  button1.style("color","#000");
@@ -15,7 +15,7 @@ button1 = createButton('VIDEO')
  
  button2 = createButton('ILLUST')
   button2.mousePressed(LinkClik2);
-  button2.position(400,300);
+  button2.position(550,300);
   button2.size(200,150);
  button2.style("font-family", "Comic Sans MS");
   button2.style("background-color","#fff");
@@ -24,7 +24,7 @@ button1 = createButton('VIDEO')
  
  button3 = createButton('ART WORK')
   button3.mousePressed(LinkClik3);
-  button3.position(700,300);
+  button3.position(850,300);
   button3.size(200,150);
  button3.style("font-family", "Comic Sans MS");
   button3.style("background-color","#fff");
