@@ -9,12 +9,12 @@ var button;
 var _self;
 
 function setup() { 
-  createCanvas(1080,720);
+  createCanvas(1280,800);
   bgColor = color( random(255), random(255), random(255) );
 
   button = createButton('NEXT')
   button.mousePressed(LinkClik);
-  button.position(950,660);
+  button.position(1150,660);
   button.size(80,40);
   button.style("font-family", "Comic Sans MS");
   button.style("background-color","#fff");
@@ -30,7 +30,7 @@ function draw() {
   textFont('Comic Sans MS');
   textSize(90);
   textAlign(CENTER);
-  text(words[index],510,380);
+  text(words[index],620,380);
 
 }
 
