@@ -3,8 +3,7 @@ var textColor = 0;
 var _self;
 
 function setup() { 
-  createCanvas(1080, 720);
-  
+createCanvas(1280,800);
   bgColor = random(255);
   textColor = random(255);
   
@@ -15,7 +14,7 @@ function setup() {
   fill(textColor);
   textSize(100);
   textFont('Comic Sans MS');
-  text('Go to the Video',200, 380);
+  text('Go to the Video',300, 390);
 
    if (frameCount % 50 == 0) {
     bgColor = color(random(255), random(255), random(255));
