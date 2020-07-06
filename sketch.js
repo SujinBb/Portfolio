@@ -16,7 +16,7 @@ function setup() {
   button.mousePressed(LinkClik);
   button.position(1150,660);
   button.size(80,40);
-  button.style("font-family", "Comic Sans MS");
+  button.style("font-family", "Arial Narrow");
   button.style("background-color","#fff");
   button.style("color","#000");
   button.style('font-size', '20px');
@@ -27,7 +27,7 @@ function setup() {
 function draw() { 
   background(bgColor);
   fill(255);
-  textFont('Comic Sans MS');
+  textFont('Impact');
   textSize(90);
   textAlign(CENTER);
   text(words[index],620,380);
