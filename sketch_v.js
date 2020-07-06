@@ -12,9 +12,10 @@ createCanvas(1280,800);
  function draw() { 
   background(bgColor);
   fill(textColor);
-  textSize(100);
-  textFont('Comic Sans MS');
-  text('Go to the Video',270, 390);
+  textSize(60);
+  textAlign(CENTER);
+  textFont('Impact');
+  text('Go to the Video',620, 390);
 
    if (frameCount % 50 == 0) {
     bgColor = color(random(255), random(255), random(255));
