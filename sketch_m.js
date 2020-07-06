@@ -8,7 +8,7 @@ button1 = createButton('VIDEO')
   button1.mousePressed(LinkClik1);
   button1.position(250,300);
   button1.size(200,150);
- button1.style("font-family", "Comic Sans MS");
+ button1.style("font-family", "Impact");
   button1.style("background-color","#fff");
  button1.style("color","#000");
  button1.style('font-size', '30px');
@@ -17,7 +17,7 @@ button1 = createButton('VIDEO')
   button2.mousePressed(LinkClik2);
   button2.position(550,300);
   button2.size(200,150);
- button2.style("font-family", "Comic Sans MS");
+ button2.style("font-family", "Impact");
   button2.style("background-color","#fff");
  button2.style("color","#000");
  button2.style('font-size', '30px');
@@ -26,7 +26,7 @@ button1 = createButton('VIDEO')
   button3.mousePressed(LinkClik3);
   button3.position(850,300);
   button3.size(200,150);
- button3.style("font-family", "Comic Sans MS");
+ button3.style("font-family", "Impact");
   button3.style("background-color","#fff");
  button3.style("color","#000");
  button3.style('font-size', '30px');
