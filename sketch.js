@@ -12,9 +12,9 @@ function setup() {
   createCanvas(1280,800);
   bgColor = color( random(255), random(255), random(255) );
 
-  button = createButton('NEXT')
+  button = createButton('GO')
   button.mousePressed(LinkClik);
-  button.position(1150,660);
+  button.position(620,400);
   button.size(80,40);
   button.style("font-family", "Arial Narrow");
   button.style("background-color","#fff");
