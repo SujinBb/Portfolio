@@ -45,5 +45,5 @@ function mousePressed() {
 }
 
 function LinkClik(){
- window.open("menu.html", _self);
+ window.open("cjenm_web1.html", _self);
 }
