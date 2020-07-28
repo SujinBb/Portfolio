@@ -14,7 +14,7 @@ function setup() {
 
   button = createButton('GO')
   button.mousePressed(LinkClik);
-  button.position(660,410);
+  button.position(660,430);
   button.size(80,40);
   button.style("font-family", "Arial Narrow");
   button.style("background-color","#fff");
