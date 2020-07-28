@@ -14,7 +14,7 @@ function setup() {
 
   button = createButton('GO')
   button.mousePressed(LinkClik);
-  button.position(700,350);
+  button.position(680,450);
   button.size(80,40);
   button.style("font-family", "Arial Narrow");
   button.style("background-color","#fff");
@@ -27,10 +27,10 @@ function setup() {
 function draw() { 
   background(bgColor);
   fill(255);
-  textFont('Arial Narrow');
+  textFont('impact');
   textSize(90);
   textAlign(CENTER);
-  text(words[index],620,380);
+  text(words[index],700,350);
 
 }
 
