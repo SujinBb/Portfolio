@@ -9,12 +9,12 @@ var button;
 var _self;
 
 function setup() { 
-  createCanvas(1280,800);
+  createCanvas(1400,720);
   bgColor = color( random(255), random(255), random(255) );
 
   button = createButton('GO')
   button.mousePressed(LinkClik);
-  button.position(620,400);
+  button.position(700,350);
   button.size(80,40);
   button.style("font-family", "Arial Narrow");
   button.style("background-color","#fff");
