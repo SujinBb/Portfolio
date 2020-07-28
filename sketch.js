@@ -27,7 +27,7 @@ function setup() {
 function draw() { 
   background(bgColor);
   fill(255);
-  textFont('Impact');
+  textFont('Arial Narrow');
   textSize(90);
   textAlign(CENTER);
   text(words[index],620,380);
