@@ -9,12 +9,12 @@ var button;
 var _self;
 
 function setup() { 
-  createCanvas(1400,720);
+  createCanvas(1600,700);
   bgColor = color( random(255), random(255), random(255) );
 
   button = createButton('GO')
   button.mousePressed(LinkClik);
-  button.position(660,410);
+  button.position(730,400);
   button.size(80,40);
   button.style("font-family", "Arial Narrow");
   button.style("background-color","#fff");
@@ -30,12 +30,12 @@ function draw() {
   textFont('impact');
   textSize(90);
   textAlign(CENTER);
-  text(words[index],680,350);
+  text(words[index],700,340);
 
 }
 
 function mousePressed() {
- bgColor = color( random(255), random(255), random(255) );
+ bgColor = color( random(0), random(255), random(255) );
   index = floor(random(words.length));
   console.log(index);
   if (index == words.length) {
