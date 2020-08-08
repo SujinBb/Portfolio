@@ -9,7 +9,7 @@ var button;
 var _self;
 
 function setup() { 
-  createCanvas(1400,700);
+  createCanvas(1350,700);
   bgColor = color( random(255), random(255), random(255) );
 
   button = createButton('GO')
