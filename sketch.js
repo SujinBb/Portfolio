@@ -2,11 +2,11 @@ var button;
 var _self;
 
 function setup() {
-  createCanvas(1280,800);
+  createCanvas(1350,700);
   background(0);
   button = createButton('GO')
   button.mousePressed(LinkClik);
-  button.position(600,420);
+  button.position(640,420);
   button.size(50,40);
  button.style("font-family", "Impact");
   button.style("background-color","#000");
@@ -26,7 +26,7 @@ function draw() {
   textFont('Impact');
   textSize(130);
   textAlign(CENTER);
-  text('CJ-ENM',620,380);
+  text('CJ-ENM',645,395);
   var d = random(200, 255);
   var e = random(0, 255);
   var f = random(0, 225);
