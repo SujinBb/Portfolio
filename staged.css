@@ -1,0 +1,95 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+td, th {
+	border-style:solid;
+	border-width:1px;
+}
+table {
+	border-collapse:collapse;
+}
+li {
+	display:block;
+}
+body {
+	font-size:12px;
+	-epub-hyphens:auto;
+}
+img.frame-1 {
+	height:380px;
+	width:774px;
+}
+div.frame-2 {
+	margin:0px auto 0px auto;
+	text-align:center;
+}
+img.frame-3 {
+	height:465px;
+	width:969px;
+}
+img.frame-4 {
+	height:449px;
+	width:927px;
+}
+img.frame-5 {
+	height:436px;
+	width:910px;
+}
+img.frame-6 {
+	height:465px;
+	width:910px;
+}
+img.frame-7 {
+	height:521px;
+	width:1043px;
+}
+img.frame-8 {
+	height:492px;
+	width:956px;
+}
+img.frame-9 {
+	height:491px;
+	width:956px;
+}
+img.frame-10 {
+	height:548px;
+	width:1168px;
+}
+img.frame-11 {
+	height:378px;
+	width:750px;
+}
+img.frame-12 {
+	height:370px;
+	width:750px;
+}
+img.frame-13 {
+	height:606px;
+	width:1226px;
+}
+img.frame-14 {
+	height:606px;
+	width:1240px;
+}
+img.frame-15 {
+	height:600px;
+	width:1240px;
+}
+img.frame-16 {
+	height:604px;
+	width:1240px;
+}
+img.frame-17 {
+	height:547px;
+	width:1132px;
+}
+img.frame-18 {
+	height:620px;
+	width:1240px;
+}
+img.frame-19 {
+	height:401px;
+	width:879px;
+}
