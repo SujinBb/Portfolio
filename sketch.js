@@ -3,14 +3,14 @@ var _self;
 
 function setup() {
   createCanvas(1350,700);
-  background(0);
+  background(255);
   button = createButton('GO')
   button.mousePressed(LinkClik);
   button.position(640,420);
   button.size(50,40);
  button.style("font-family", "Impact");
-  button.style("background-color","#000");
- button.style("color","#FFF");
+  button.style("background-color","#FFF");
+ button.style("color","#000");
  button.style('font-size', '20px');
 }
 
@@ -22,11 +22,11 @@ function randomColor() {
 }
 
 function draw() { 
-  fill(0);
+  fill(255);
   textFont('Impact');
   textSize(130);
   textAlign(CENTER);
-  text('CJ-ENM',645,395);
+  text('PORTFOLIO',645,395);
   var d = random(200, 255);
   var e = random(0, 255);
   var f = random(0, 225);
