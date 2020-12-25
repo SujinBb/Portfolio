@@ -15,7 +15,7 @@ function setup() {
 }
 
 function randomColor() {
-  var a = random(200, 255);
+  var a = random(0, 255);
   var b = random(0, 255);
   var c = random(0, 255);
   background(a, b, c);
@@ -27,7 +27,7 @@ function draw() {
   textSize(130);
   textAlign(CENTER);
   text('PORTFOLIO',645,395);
-  var d = random(0, 255);
+  var d = random(200, 255);
   var e = random(0, 255);
   var f = random(0, 225);
   fill(d,e,f);
