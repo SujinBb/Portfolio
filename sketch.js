@@ -36,5 +36,5 @@ function draw() {
 }
 
 function LinkClik(){
- window.open("cjenm_web1.html", _self);
+ window.open("posterd.html", _self);
 }
