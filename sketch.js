@@ -27,12 +27,12 @@ function draw() {
   textSize(130);
   textAlign(CENTER);
   text('PORTFOLIO',645,395);
-  var d = random(200, 255);
+  var d = random(0, 255);
   var e = random(0, 255);
   var f = random(0, 225);
   fill(d,e,f);
   noStroke();
-  ellipse(mouseX, mouseY,200,200);
+  ellipse(mouseX, mouseY,300,300);
 }
 
 function LinkClik(){
